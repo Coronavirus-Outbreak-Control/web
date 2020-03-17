@@ -17,6 +17,16 @@
 </head>
 
 <body data-gr-c-s-loaded="true">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!--[if IE]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
   your browser</a> to improve your experience and security.</p>
@@ -33,6 +43,32 @@
       <p>
         If you have been close to an infected person you will be notified and get clear instructions on the next steps to follow.
       </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container" style="text-align: center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DyR_vU2QpoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Together we can save lives, share it</h2>
+      <div class="fb-share-button"
+           data-href="https://www.youtube.com/embed/DyR_vU2QpoY"
+           data-layout="button"
+           data-size="large" style="float: left; margin-right: 5px">
+      </div>
+      <div style="float: left">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" class="twitter-share-button" data-text="Together we can save lives:" data-url="https://www.youtube.com/embed/DyR_vU2QpoY" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Download the apps (Coming soon)</h2>
       <p class="download">
         <img src="./CovidApp_files/download-iphone.svg">
         <img src="./CovidApp_files/download-android.svg">
@@ -123,6 +159,7 @@
       </p>
     </div>
   </section>
+
 </main>
 
 <script>
