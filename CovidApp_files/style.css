@@ -61,3 +61,11 @@ section:nth-child(odd) {
     display: block;
     margin-top: 15px;
 }
+
+.email-style{
+    color: white;
+}
+
+.email-style:active{
+    color: white;
+}
