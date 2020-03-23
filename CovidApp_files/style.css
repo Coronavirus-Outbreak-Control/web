@@ -69,3 +69,9 @@ section:nth-child(odd) {
 .email-style:active{
     color: white;
 }
+
+
+.app_videos video {
+    
+    padding: 40px 70px 0 0;
+}
