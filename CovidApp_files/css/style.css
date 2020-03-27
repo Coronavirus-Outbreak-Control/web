@@ -92,6 +92,7 @@ a.nav-link:hover {
     text-align: center;
     font-size: 40px;
     color: #2E5DA4;
+    margin-bottom: 20px;
 }
 .fb-share-button {
     margin-left: 40%;
@@ -114,6 +115,9 @@ a.nav-link:hover {
 #anonymous-container p {
     font-size: 16px;
 }
+#anonymous-container h3 {
+    text-align: center;
+}
 #working-with-container {
     padding: 100px 0;
     text-align: center;
@@ -121,4 +125,7 @@ a.nav-link:hover {
 }
 #about-container, #protect-container, #help-container, #contact-container {
     padding: 100px 0;
+}
+#about-container h3, #help-container h3 {
+    text-align: center;
 }
