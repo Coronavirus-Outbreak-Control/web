@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Coronavirus Outbreak Control</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="apple-touch-icon" href="CovidApp_files/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="CovidApp_files/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="CovidApp_files/css/normalize.css">
+
+    <link href="./CovidApp_files/css/css2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CovidApp_files/css/style.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <script src="CovidApp_files/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CovidApp_files/css/bootstrap.min.css">
+
+</head>
+<body data-gr-c-s-loaded="true">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<header>
+    <ul class="nav justify-content-end blue-bkg header-menu-container">
+        <a class="navbar-brand">
+            <img src="CovidApp_files/screens/transparent_icon-ios-1024@1x 2.png" height="100"
+                 width="100"/>
+        </a>
+        <li class="nav-item">
+            <a class="nav-link" href="#how-container">How it works</a>
+        </li>
+        <!--<li class="nav-item">-->
+        <!--<a class="nav-link" href="#">Our steps</a>-->
+        <!--</li>-->
+        <li class="nav-item">
+            <a class="nav-link" href="#apps-container">Download</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about-container">About us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact-container">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Italiano</a>
+        </li>
+
+    </ul>
+    <nav class="navbar-light col-sm-12">
+
+
+    </nav>
+
+
+</header>
+<main>
+    <div class="container-fluid col-sm-12 blue-bkg top-container">
+        <div class="row ">
+            <div class="col-8 mt-5">
+                <h2>Anonymously monitor your interactions and find out if you have been exposed to the virus, with no GPS tracking.</h2>
+                <p></p>
+                <p>Our app anonymously monitors the devices that get near you, without using the GPS.</p>
+                <p>If you have been close to an infected person you will be notified and get clear instructions on the next steps to follow.</p>
+                <!--<div class="app-icons-container">-->
+                <!--<div class="row col-sm-12">-->
+                <!--<img src={iconIos}/>-->
+                <!--<img src={iconAndroid} class="ml-3"/>-->
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+            <div class="col-4 mt-2">
+                <div class="mobile-image-top">
+                    <!--<div class="mobile-top"></div>-->
+                    <img src="CovidApp_files/screens/mobile-top.png"/></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 blue-soft-bkg" id="video-container">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img src="CovidApp_files/screens/video-left.png" height="375" width="164"/>
+            </div>
+            <div class="col-8" style="z-index:3">
+                <div class="iframe-container">
+                    <iframe width="640" height="375" src="https://www.youtube.com/embed/DyR_vU2QpoY"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <img src="CovidApp_files/screens/video-right.png" height="375" width="164"/>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 pt-5 pb-5" id="apps-container">
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="download-app-container">
+                    <h2>Download the apps</h2>
+                    <p>(Coming soon)</p>
+                    <div class="app-icons-container">
+                        <div class="row col-12">
+                            <div class="col-12">
+                                <img src="CovidApp_files/screens/download-iphone.png" height="43" width="148"/>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <img src="CovidApp_files/screens/download-android.png" height="44" width="148"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <img src="CovidApp_files/screens/download-app-big.png" height="536"/>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 pt-5 pb-5 blue-soft-bkg" id="social-container">
+        <div class="row justify-content-md-center">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>Together we can save lives, share it now</h1>
+                <div class="fb-share-button"
+                     data-href="https://www.youtube.com/embed/DyR_vU2QpoY"
+                     data-layout="button"
+                     data-size="large" style="float: left; margin-right: 5px">
+                </div>
+                <div style="float: left">
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-size="large" class="twitter-share-button" data-text="Together we can save lives:" data-url="https://www.youtube.com/embed/DyR_vU2QpoY" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 pt-5 pb-5 " id="how-container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1>How it works</h1>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+        <div class="row pt-1 pb-1">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <img src="CovidApp_files/screens/how_it_works_1.png" height="100" /></div>
+            <div class="col-5 ">
+                <p>
+                    Every mobile device has a unique and anonymous numeric id, that can be read at distance using high-precision low-distance measurement technology.
+                </p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row pt-1 pb-1">
+            <div class="col-3"></div>
+
+            <div class="col-5 ">
+                <p>
+                    CovidApp continuously scans your surroundings and collects the ids of the phones close to you, storing them in a secure centralized cloud database.                </p>
+            </div>
+            <div class="col-2">
+                <img src="CovidApp_files/screens/how_it_works_2.png" height="100"/>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row pt-1 pb-1">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <img src="CovidApp_files/screens/how_it_works_3.png" height="100" />
+            </div>
+            <div class="col-4 ">
+                <p>
+                    Our network of certified doctors daily updates the database with the ids of the devices belonging to confirmed Coronavirus infected.
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="CovidApp_files/screens/how_it_works_3_b.png" height="100" />
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row pt-1 pb-1">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <img src="CovidApp_files/screens/how_it_works_4.png" height="100" />
+            </div>
+            <div class="col-5 ">
+                <p>
+                    CovidApp continuously scans your surroundings and collects the ids of the phones close to you, storing them in a secure centralized cloud database.
+                </p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 pt-5 pb-5 blue-soft-bkg" id="anonymous-container">
+        <div class="row justify-content-md-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h3>We are 100% anonymous</h3>
+                <br/>
+                <p style="font-size: 18px">Our system relies only on the anonymous IDs generated by our service, that in no way can be used to obtain personal data.</p>
+                <br>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-3">
+                <h5>Moreover:</h5>
+                <br>
+                <p><span class="dont-span">DOESN'T</span> track users' GPS positions.</p>
+                <p><span class="dont-span">DOESN'T</span> need any login.</p>
+                <p><span class="dont-span">DOESN'T</span> collect any privat or sensible data, such as name, surname, mobile number.</p>
+                <p><span class="dont-span">DOESN'T</span> shows on a public map your health status together with the locations you visited or the place you live in.</p>
+            </div>
+            <div class="col-7">
+                <img src="CovidApp_files/screens/anonymous.png" height="310" style="margin-left: 80px;margin-top: -18px;"/>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <br>
+                <p style="font-size: 18px">All the produced code necessary for the functioning of the service is open source and available online for review: <a href="https://github.com/Coronavirus-Outbreak-Control" target="_blank">Coronavirus Outbreak Control</a></p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12" id="working-with-container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3 style="text-align: center">We are working with recognized Health Institutions and Research Centers</h3>
+                <br>
+                <br>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <p style="font-size: 18px;">We are working very close with the most recognized Health Institutions to distribute the service worldwide.</p>
+                <br>
+                <p style="font-size: 18px;"> Many others are supporting this solutions that, while protecting the citizens, doens't compromise their privacy.</p>
+            </div>
+            <div class="col-8"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 blue-soft-bkg" id="about-container">
+        <div class="row justify-content-md-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h3><span class="dont-span">About us</span></h3>
+                <br/>
+                <p style="font-size: 18px">The Coronavirus Outbreak Control team consists of 22 people working from four European countries on product development, engineering and operations.</p>
+                <br>
+                <p style="font-size: 18px">The team has a multidisciplinary background: 10+ years of experience in distributed architectures and mission critical softwares, founders and lead developers already worked together in the past building worldwide solutions for international partners, such as Airbnb, Google and Microsoft.</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12" id="protect-container">
+        <div class="row justify-content-md-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h3 style="text-align: center">Protect yourself, protect the humankind</h3>
+                <br/>
+                <p style="font-size: 18px">The Coronavirus Outbreak Control team consists of 14 people working from four European countries on product development, engineering and operations.</p>
+                <br>
+                <p style="font-size: 18px">The team has a multidisciplinary background: 10+ years of experience in distributed architectures and mission critical softwares, founders and lead developers already worked together in the past building worldwide solutions for international partners, such as Airbnb, Google and Microsoft.</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 blue-soft-bkg" id="help-container">
+        <div class="row justify-content-md-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h3><span class="dont-span">Help the economy of your country</span></h3>
+                <br/>
+                <p style="font-size: 18px">When a case of coronavirus is detected, your country’s institutions have to backtrack all the patient activities: who the patient has spent his time with, where the patient has been, etc.</p>
+                <br>
+                <p style="font-size: 18px">This operation is extremely expensive and requires lots of efforts.</p>
+                <br>
+                <p style="font-size: 18px">When the number of infections grows to the point in which this operation can’t be applied to all the cases, governments have to quarantine towns, regions or, even worse, the entire country.</p>
+                <br>
+                <p style="font-size: 18px">With our solution, we will immediately inform whoever has been close to the infected patient during the last 14 days to quarantine him/her-self and we will give him/her precise instructions about how to behave.</p>
+                <br>
+                <p style="font-size: 18px">This new operation is free for the people, free for the Health Institutions and extremely fast. You can protect your country economy just by download this app.</p>
+
+
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-12 " id="contact-container">
+        <div class="row justify-content-md-center">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <h3><span class="dont-span">Contact us</span></h3>
+                <br/>
+                <p><a href="mailto:coronavirus.outbreak.control@gmail.com">coronavirus.outbreak.control@gmail.com</a></p>
+            </div>
+            <div class="col-4">
+                <h3><span class="dont-span">Download the full proposal</span></h3>
+                <br/>
+                <p style="text-decoration: underline"><a href="CovidApp_files/Coronavirus_Outbreak_Control_-_Full Proposal.pdf">Coronavirus Outbreak Control - Proposta</a></p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

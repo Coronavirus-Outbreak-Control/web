@@ -1,0 +1,124 @@
+html {
+    color: #333333;
+    line-height: 1.7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    min-width: 960px;
+}
+
+
+.blue-bkg {
+    background: #2E5DA4;
+}
+.blue-soft-bkg {
+    background: #EAEFF6;
+}
+
+a.nav-link {
+    padding: 35px 50px;
+    color: white;
+    font-weight: 100;
+}
+a.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+.navbar-brand img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 30px;
+}
+
+.top-container {
+    color: #fff;
+    padding-top: 30px;
+}
+
+.top-container .row {
+    padding: 0px 150px;
+}
+
+.top-container p {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-align: justify;
+}
+
+.mobile-image-top img {
+    background-size: cover;
+    height: 400px;
+}
+/*.mobile-top {*/
+    /*background-image: url("../screens/mobile-top.png");*/
+    /*height: 536px;*/
+    /*background-size: cover;*/
+/*}*/
+#video-container {
+    padding: 100px 0;
+}
+#video-container .iframe-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#video-container .row {
+    padding: 0 50px;
+}
+
+.download-app-container {
+    padding: 145px 0px 0px 124px;
+}
+
+.download-app-container p {
+    font-size: 22px;
+}
+.app-icons-container {
+    margin-top: 35px;
+}
+.app-icons-container img {
+    margin: 0 60px;
+}
+#social-container .row {
+    padding: 140px 0;
+}
+#social-container h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #2E5DA4;
+}
+.fb-share-button {
+    margin-left: 40%;
+}
+
+#how-container {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#how-container p {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.dont-span {
+    background-color: #ABBEDB;
+}
+
+#anonymous-container p {
+    font-size: 16px;
+}
+#working-with-container {
+    padding: 100px 0;
+    text-align: center;
+
+}
+#about-container, #protect-container, #help-container, #contact-container {
+    padding: 100px 0;
+}
