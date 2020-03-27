@@ -123,6 +123,9 @@ a.nav-link:hover {
     text-align: center;
 
 }
+#working-with-container p{
+    text-align: left;
+}
 #about-container, #protect-container, #help-container, #contact-container {
     padding: 100px 0;
 }
