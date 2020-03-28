@@ -147,15 +147,14 @@
                     <h5>Receive an email to let you know when it will be available:</h5>
                     <script type="text/javascript">
                         function afterSubmit() {
-                            $('#email-form input').val('');
-                            $('#email-form .success-icon img').fadeIn(200);
+                            $('.email-from-container .success-icon img').fadeIn(200);
                         }
                     </script>
                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
                             onload="
                                 console.log('email sent!');
                             "></iframe>
-                    <form id="email-form" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSf48TRm86_B-YmELAPiITt2qT0LscW1_1Z76zW-ycFohbz8bA/formResponse"
+                    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSf48TRm86_B-YmELAPiITt2qT0LscW1_1Z76zW-ycFohbz8bA/formResponse"
                           target="hidden_iframe" onsubmit="afterSubmit()">
                         <input name="entry.1045781291" type="email" required />
 
