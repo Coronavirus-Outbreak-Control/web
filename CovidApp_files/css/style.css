@@ -6,6 +6,7 @@ html {
     font-weight: 300;
     font-size: 15px;
     min-width: 960px;
+    scroll-behavior: smooth;
 }
 
 
