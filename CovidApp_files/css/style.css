@@ -16,6 +16,10 @@ html {
     background: #EAEFF6;
 }
 
+.container-fluid > .row {
+    margin: 0 auto;
+}
+
 a.nav-link {
     padding: 35px 20px;
     color: white;
@@ -32,16 +36,16 @@ a.nav-link:hover {
     left: 30px;
 }
 
-.top-container {
+#top-container {
     color: #fff;
     padding-top: 30px;
 }
 
-.top-container .row {
+#top-container .row {
     padding: 0px 150px;
 }
 
-.top-container p {
+#top-container p {
     font-style: normal;
     font-weight: 100;
     font-size: 19px;
@@ -73,18 +77,21 @@ a.nav-link:hover {
 }
 
 .download-app-container {
-    padding: 145px 0px 0px 124px;
+    text-align: center;
 }
 
 .download-app-container p {
     font-size: 22px;
 }
+.image-mobile-download img{
+    width: 90%;
+}
 .app-icons-container {
     margin-top: 35px;
 }
-.app-icons-container img {
-    margin: 0 60px;
-}
+/*.app-icons-container img {*/
+/*    margin: 0 60px;*/
+/*}*/
 #social-container .row {
     padding: 140px 0;
 }
