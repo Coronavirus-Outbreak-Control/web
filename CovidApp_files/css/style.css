@@ -84,6 +84,37 @@ a.nav-link:hover {
 .download-app-container p {
     font-size: 22px;
 }
+.email-from-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.email-from-container form {
+    margin-top: 24px;
+}
+.email-from-container .success-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.email-from-container input {
+    width: 60%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 3.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.beta-tester-container {
+    margin-top: 20px;
+}
 .image-mobile-download img{
     width: 90%;
 }
@@ -101,6 +132,11 @@ a.nav-link:hover {
     font-size: 40px;
     color: #2E5DA4;
     margin-bottom: 20px;
+}
+#social-container .share-inside-container {
+    float: left;
+    padding: 20px 128px;
+
 }
 .fb-share-button {
     margin-left: 40%;
@@ -123,7 +159,7 @@ a.nav-link:hover {
 #anonymous-container p {
     font-size: 16px;
 }
-#anonymous-container h3 {
+#anonymous-container h1 {
     text-align: center;
 }
 #working-with-container {
@@ -137,6 +173,6 @@ a.nav-link:hover {
 #about-container, #protect-container, #help-container, #contact-container {
     padding: 100px 0;
 }
-#about-container h3, #help-container h3 {
+#about-container h1, #help-container h1 {
     text-align: center;
 }

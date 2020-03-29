@@ -146,6 +146,28 @@
                         </div>
                     </div>
                 </div>
+                <div class="email-from-container">
+                    <h5>Ricevi un’email per sapere quando sarà disponibile:</h5>
+                    <script type="text/javascript">
+                        function afterSubmit() {
+                            $('.email-from-container .success-icon img').fadeIn(200);
+                        }
+                    </script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                            onload="
+                                console.log('email sent!');
+                            "></iframe>
+                    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSf48TRm86_B-YmELAPiITt2qT0LscW1_1Z76zW-ycFohbz8bA/formResponse"
+                          target="hidden_iframe" onsubmit="afterSubmit()">
+                        <input name="entry.1045781291" type="email" required />
+
+                        <button type="submit" class="btn btn-primary">Send</button>
+                        <div class="success-icon" >
+                            <img src="CovidApp_files/screens/success-incon.png" height="24" width="24" style="display: none;"/>
+                        </div>
+                    </form>
+<!--                    <div class="beta-tester-container"><a href="">Diventa un beta tester</a></div>-->
+                </div>
             </div>
             <div class="col-7  image-mobile-download">
                 <img src="CovidApp_files/screens/download-app-big.png"/>
@@ -153,10 +175,23 @@
         </div>
     </div>
     <div class="container-fluid col-sm-12 pt-5 pb-5 blue-soft-bkg" id="social-container">
-        <div class="row justify-content-md-center">
+        <div class="row">
             <div class="col-1"></div>
             <div class="col-10">
                 <h1>Insieme possiamo salvare vite, condividilo ora:</h1>
+                <div class="share-inside-container">
+                    <h4>+30% Interazioni Individuate</h4>
+                    <p>Rispetto a comuni soluzioni bluetooth</p>
+
+                    <h4>Open source + public protocol</h4>
+                    <p>La trasparenza per noi è importante! Tutto quello che facciamo è open source e disponibile.</p>
+
+                    <h4>Dashboard per Virologi</h4>
+                    <p>Diamo la possibilità direttamente a virologi esperti selezionati di stabilire le regole e le notifiche da mandare ai pazienti.</p>
+
+                    <h4>Pazienti Asintomatici</h4>
+                    <p>La nostra piattaforma è in grado di individuare anche i pazienti che non presentano sintomi.</p>
+                </div>
                 <div class="fb-share-button"
                      data-href="https://coronavirus-outbreak-control.github.io/web/index.html"
                      data-layout="button"
@@ -168,12 +203,19 @@
             </div>
             <div class="col-1"></div>
         </div>
+<!--        <div class="row-cols-6">-->
+<!--&lt;!&ndash;            <div class="col-1"></div>&ndash;&gt;-->
+<!--            <div class="col-6">-->
+<!--                -->
+<!--            </div>-->
+<!--&lt;!&ndash;            <div class="col-1"></div>&ndash;&gt;-->
+<!--        </div>-->
     </div>
     <div class="container-fluid col-sm-12 pt-5 pb-5 " id="anonymous-container">
         <div class="row justify-content-md-center">
             <div class="col-2"></div>
             <div class="col-8">
-                <h3>100% Anonimo e Open Source</h3>
+                <h1>100% Anonimo e Open Source</h1>
                 <br/>
                 <p style="font-size: 18px">Il nostro sistema si basa solo su degli ID anonimi generati dal nostro servizio, che non possono in alcun modo essere utilizzati per ottenere dati personali.</p>
                 <br>
@@ -267,7 +309,7 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
-                <h3 style="text-align: center">Collaboriamo con istituti sanitari e di ricerca riconosciuti</h3>
+                <h1 style="text-align: center">Collaboriamo con istituti sanitari e di ricerca riconosciuti</h1>
                 <br>
                 <p style="font-size: 18px;">Stiamo lavorando a stretto contatto con le istituzioni sanitarie più riconosciute per distribuire il servizio in tutto il mondo. </p>
             </div>
@@ -305,7 +347,7 @@
         <div class="row justify-content-md-center">
             <div class="col-2"></div>
             <div class="col-8">
-                <h3><span class="dont-span">Chi siamo</span></h3>
+                <h1><span class="dont-span">Chi siamo</span></h1>
                 <br/>
                 <p style="font-size: 18px">Il team di Coronavirus Outbreak Control è composto da 22 persone da sei paesi differenti che lavorano da due continenti.</p>
                 <br>
@@ -318,7 +360,7 @@
         <div class="row justify-content-md-center">
             <div class="col-2"></div>
             <div class="col-8">
-                <h3 style="text-align: center">Proteggi te stesso, proteggi l'umanità</h3>
+                <h1 style="text-align: center">Proteggi te stesso, proteggi l'umanità</h1>
                 <br/>
                 <p style="font-size: 18px">La nostra app ci consente di rispondere rapidamente a nuovi focolai di Coronavirus e di intraprendere le azioni necessarie per proteggere la tua salute e contenere la diffusione del virus.</p>
                 <br>
@@ -331,7 +373,7 @@
         <div class="row justify-content-md-center">
             <div class="col-2"></div>
             <div class="col-8">
-                <h3><span class="dont-span">Aiuta l'economia del tuo paese</span></h3>
+                <h1><span class="dont-span">Aiuta l'economia del tuo paese</span></h1>
                 <br/>
                 <p style="font-size: 18px">Quando viene rilevato un caso di coronavirus, le istituzioni del tuo paese devono analizzare tutte le attività passate del paziente: con chi il paziente ha trascorso il suo tempo, dove è stato il paziente, quali mezzi di trasporto ha usato, ecc...</p>
                 <br>
