@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "plugins": ["react-hooks"],
+  "rules": {
+    "no-console": "off",
+    "react/no-unescaped-entities": "off",
+    "camelcase": "off",
+    "prefer-promise-reject-errors": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/no-did-update-set-state": "off",
+    "react/display-name": "off",
+    "handle-callback-err": "off",
+    "react-hooks/rules-of-hooks": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "16.6"
+    }
+  }
+}
