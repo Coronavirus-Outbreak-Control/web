@@ -1,5 +1,5 @@
-/* @import 'normalize.css'; */
 /* @import 'bootstrap-responsive.min.css'; */
+@import 'normalize.css';
 @import 'typography.css';
-@import 'bootstrap.min.css';
 @import 'general.css';
+@import 'bootstrap.min.css';

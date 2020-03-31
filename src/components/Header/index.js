@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 import logo from '../../assets/images/screens/transparent_icon-ios-1024@1x 2.png'
 import ukFlag from '../../assets/images/screens/united-kingdom-flag-small.png'
 
@@ -14,7 +15,9 @@ const Header = () => (
       </a>
       <li class='nav-item'>
         <a class='nav-link' href='#apps-container'>
-          Scarica
+          <FormattedMessage
+            id='Heading.download'
+            defaultMessage='Scarica' />
         </a>
       </li>
       <li class='nav-item'>
@@ -44,7 +47,7 @@ const Header = () => (
           <img
             src={ukFlag}
             height='12'
-            style={{marginLeft: '2px', marginTop: '-1px'}}
+            style={{marginLeft: '5px', marginTop: '-1px'}}
           />
         </a>
       </li>
