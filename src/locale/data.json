@@ -1,8 +1,10 @@
 {
   "en": {
-    "Heading.download": "Download"
+    "Heading.download": "Download",
+    "Heading.anonymous": ""
   },
   "it": {
-    "Heading.download": "Scarica questo"
+    "Heading.download": "Scarica",
+    "Heading.anonymous": ""
   }
 }

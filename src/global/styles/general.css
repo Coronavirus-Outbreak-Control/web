@@ -27,8 +27,9 @@ html, body {
 
 a.nav-link {
   padding: 35px 20px;
-  color: white;
+  color: white !important;
   font-weight: 100;
+  cursor: pointer;
 }
 a.nav-link:hover {
   color: white;

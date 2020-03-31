@@ -3,46 +3,46 @@ import { FormattedMessage } from 'react-intl'
 import logo from '../../assets/images/screens/transparent_icon-ios-1024@1x 2.png'
 import ukFlag from '../../assets/images/screens/united-kingdom-flag-small.png'
 
-const Header = () => (
+const Header = (props) => (
   <header>
     <ul className='nav justify-content-end blue-bkg header-menu-container'>
-      <a class='navbar-brand'>
+      <a className='navbar-brand'>
         <img
           src={logo}
           height='100'
           width='100'
         />
       </a>
-      <li class='nav-item'>
-        <a class='nav-link' href='#apps-container'>
+      <li className='nav-item'>
+        <a className='nav-link' href='#apps-container'>
           <FormattedMessage
             id='Heading.download'
             defaultMessage='Scarica' />
         </a>
       </li>
-      <li class='nav-item'>
-        <a class='nav-link' href='#anonymous-container'>
+      <li className='nav-item'>
+        <a className='nav-link' href='#anonymous-container'>
           Anonimo e Open Source
         </a>
       </li>
-      <li class='nav-item'>
-        <a class='nav-link' href='#how-container'>
+      <li className='nav-item'>
+        <a className='nav-link' href='#how-container'>
           Come funziona
         </a>
       </li>
 
-      <li class='nav-item'>
-        <a class='nav-link' href='#about-container'>
+      <li className='nav-item'>
+        <a className='nav-link' href='#about-container'>
           Chi siamo
         </a>
       </li>
-      <li class='nav-item'>
-        <a class='nav-link' href='#contact-container'>
+      <li className='nav-item'>
+        <a className='nav-link' href='#contact-container'>
           Contattaci
         </a>
       </li>
-      <li class='nav-item'>
-        <a class='nav-link' href='index_en.html'>
+      <li className='nav-item'>
+        <a className='nav-link' onClick={()=>props.onChangeLanguage('en')}>
           English
           <img
             src={ukFlag}
@@ -52,7 +52,7 @@ const Header = () => (
         </a>
       </li>
     </ul>
-    <nav class='navbar-light col-sm-12' />
+    <nav className='navbar-light col-sm-12' />
   </header>
 );
 
