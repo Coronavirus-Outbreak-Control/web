@@ -5,15 +5,6 @@ import videoLeft from '../../assets/images/screens/video-left.png'
 
 const VideoSection = (props) => (
   <div className='container-fluid col-sm-12 blue-soft-bkg' id='video-container'>
-    <div className='js-slider row pb-5'>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/bocconi.png'/></div>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/cnr.png'/></div>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/copernicani.png'/></div>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/pi_campus.png'/></div>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/sapienza.png'/></div>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/translated.png'/></div>
-      <div className='js-slider-item'><img className='js-item' src='./CovidApp_files/screens/ufsc.png'/></div>
-    </div>
     <div className='row justify-content-center'>
         <div className='col-2'>
             <img src={videoLeft} height='375' width='164'/>

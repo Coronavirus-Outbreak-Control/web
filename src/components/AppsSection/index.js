@@ -3,6 +3,7 @@ import downloadIphone from '../../assets/images/screens/download-iphone.png'
 import downloadAndroid from '../../assets/images/screens/download-android.png'
 import downloadAppBig from '../../assets/images/screens/download-app-big.png'
 import successIcon from '../../assets/images/screens/success-incon.png'
+import {FormattedMessage} from "react-intl";
 
 class AppsSection extends Component {
   state = {
@@ -24,8 +25,8 @@ class AppsSection extends Component {
             <div className='row justify-content-center'>
                 <div className='col-5 align-self-center'>
                     <div className='download-app-container'>
-                        <h2>Scarica le nostre App</h2>
-                        <p>(In attesa del Governo Italiano)</p>
+                        <h2><FormattedMessage id='App.title' /></h2>
+                        <p>(<FormattedMessage id='App.subtitle' />)</p>
                         <div className='app-icons-container'>
                             <div className='row col-sm-12'>
                                 <div className='col-12'>
@@ -38,9 +39,9 @@ class AppsSection extends Component {
                         </div>
                     </div>
                     <div className='email-from-container'>
-                        <h5>Ricevi un’email per sapere quando sarà disponibile:</h5>
+                        <h5><FormattedMessage id='App.email' /></h5>
                         <iframe name='hidden_iframe' id='hidden_iframe' style={{display: 'none'}}
-                                onLoad={this.onLoad}></iframe>
+                                onLoad={this.onLoad}/>
                         <form className='form' action='https://docs.google.com/forms/d/e/1FAIpQLSf48TRm86_B-YmELAPiITt2qT0LscW1_1Z76zW-ycFohbz8bA/formResponse'
                               target='hidden_iframe' onSubmit={this.onSubmit}>
                             <input name='entry.1045781291' type='email' required />
