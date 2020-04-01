@@ -176,3 +176,23 @@ a.nav-link:hover {
 #about-container h1, #help-container h1 {
     text-align: center;
 }
+/* .js-slider {
+  width: 500px;
+} */
+
+.js-slider-item {
+  width: 100px;
+  height: 100px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.js-slider-item img {
+  width: 100px;
+  text-align: center;
+  height: 100px;
+}
+
+.js-slider {
+  margin: 35px auto 0 auto;
+}

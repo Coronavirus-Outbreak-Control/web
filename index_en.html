@@ -16,11 +16,16 @@
     <link rel="stylesheet" href="./CovidApp_files/css/style.css">
 
     <meta name="theme-color" content="#fafafa">
-
+    <!-- carousel slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    
     <script src="CovidApp_files/js/jquery-3.4.1.min.js"></script>
     <script src="CovidApp_files/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <link rel="stylesheet" href="CovidApp_files/css/bootstrap.min.css">
 <!--    <link rel="stylesheet" href="CovidApp_files/css/bootstrap-responsive.min.css">-->
+
 
 
 </head>
@@ -123,8 +128,18 @@
             <div class="col-2">
                 <img src="CovidApp_files/screens/video-right.png" height="375" width="164"/>
             </div>
-
-        </div>
+          </div>
+            <div class=''>
+              <div class='js-slider row' >
+                <div class='js-slider-item'><img class='js-item' src='./CovidApp_files/screens/bocconi.png'></div>
+                <div class='js-slider-item'><img class='js-item' src='./CovidApp_files/screens/cnr.png'></div>
+                <div class='js-slider-item'><img class='js-item' src='./CovidApp_files/screens/copernicani.png'></div>
+                <div class='js-slider-item'><img class='js-item' src='./CovidApp_files/screens/pi_campus.png'></div>
+                <div class='js-slider-item'><img class='js-item' src='./CovidApp_files/screens/sapienza.png'></div>
+                <div class='js-slider-item'><img class='js-item' src='./CovidApp_files/screens/translated.png'></div>
+                <div class='js-slider-item' ><img class='js-item' src='./CovidApp_files/screens/ufsc.png'></div>
+              </div>
+            </div>
     </div>
     <div class="container-fluid col-sm-12 pt-5 pb-5" id="apps-container">
         <div class="row justify-content-center">
@@ -400,6 +415,18 @@
         </div>
     </div>
 </main>
-
+<script type='text/javascript'>
+  $(document).ready(function(){
+    $('.js-slider').slick({
+      speed: 500,
+      arrows: false,
+      infinite: true,
+      autoplay: true,
+      slidesToShow: 4,
+      centerMode: true,
+      slidesToScroll: 1
+    });
+  });
+</script>
 </body>
 </html>
