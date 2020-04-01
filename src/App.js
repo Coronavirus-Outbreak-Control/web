@@ -35,28 +35,23 @@ const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0]
 let i18nConfig = {
   locale: languageWithoutRegionCode || DEFAULT_LANGUAGE,
   messages : localeData[languageWithoutRegionCode] || localeData[language] || localeData[DEFAULT_LANGUAGE]
-};
+}
 
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
+  state = {
       i18nConfig
-    }
   }
+
   changeLanguage = (lang) => {
     let i18nConfig = {
       locale: lang,
       messages: localeData[lang]
-    };
-    debugger
+    }
     this.setState({i18nConfig})
-
-  };
+  }
 
   render = () => {
-    debugger
     return (
       <IntlProvider locale={this.state.i18nConfig.locale} messages={this.state.i18nConfig.messages}>
         <React.StrictMode>

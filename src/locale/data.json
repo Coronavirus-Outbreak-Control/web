@@ -1,10 +1,24 @@
 {
   "en": {
     "Heading.download": "Download",
-    "Heading.anonymous": ""
+    "Heading.anonymous": "Anonymous and Open Source",
+    "Heading.how": "How it works",
+    "Heading.about": "About us",
+    "Heading.contact": "Contact",
+    "Top.title": "CovidApp - Covid Community Alert",
+    "Top.subtitle": "Anonymously monitor your interactions and find out if you have been exposed to the virus, with no GPS tracking.",
+    "Top.row1": "Our app anonymously monitors the devices that get near you, without using the GPS.",
+    "Top.row2": "If you have been close to an infected person you will be notified and get clear instructions on the next steps to follow."
   },
   "it": {
     "Heading.download": "Scarica",
-    "Heading.anonymous": ""
+    "Heading.anonymous": "Anonimo e Open Source",
+    "Heading.how": "Come funziona",
+    "Heading.about": "Chi siamo",
+    "Heading.contact": "Contattaci",
+    "Top.title": "CovidApp - Covid Community Alert",
+    "Top.subtitle": "Monitora anonimamente le tue interazioni e scopri se sei stato esposto al virus, senza tracciamento GPS.",
+    "Top.row1": "La nostra app monitora anonimamente gli smartphone che si avvicinano a te, senza usare il GPS.",
+    "Top.row2": "Se stai stato vicino ad una persona infetta, riceverai una notifica e chiare istruzioni sui passaggi successivi da seguire."
   }
 }
