@@ -1,7 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { IntlProvider } from 'react-intl'
-import localeData from './locale/data.json'
+import { render } from 'react-snapshot'
 import App from './App'
 // TODO: fix css order
 import './global/styles/normalize.css'
@@ -10,7 +8,7 @@ import './global/styles/general.css'
 import './global/styles/bootstrap.min.css'
 import * as serviceWorker from './serviceWorker'
 
-ReactDOM.render(
+render(
     <App/>
   ,
   document.getElementById('root')

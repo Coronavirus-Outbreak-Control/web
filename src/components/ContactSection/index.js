@@ -12,7 +12,7 @@ const ContactSection = () => (
       <div className='col-4'>
           <h3><span className='dont-span'>Scarica la descrizione del progetto</span></h3>
           <br/>
-          <p style={{textDecoration: 'underline'}}><a target='_blank' href='/download/Coronavirus_Outbreak_Control_-_Full Proposal.pdf'>Coronavirus Outbreak Control - Proposta</a></p>
+          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href='/download/Coronavirus_Outbreak_Control_-_Full Proposal.pdf'>Coronavirus Outbreak Control - Proposta</a></p>
       </div>
       <div className='col-2'></div>
   </div>
