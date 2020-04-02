@@ -38,7 +38,7 @@ class AppsSection extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className='email-from-container'>
+                    {/* <div className='email-from-container'>
                         <h5><FormattedMessage id='App.email' /></h5>
                         <iframe name='hidden_iframe' id='hidden_iframe' style={{display: 'none'}}
                                 onLoad={this.onLoad}/>
@@ -53,7 +53,7 @@ class AppsSection extends Component {
                               </div>
                             }
                         </form>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='col-7  image-mobile-download'>
                     <img src={downloadAppBig} />

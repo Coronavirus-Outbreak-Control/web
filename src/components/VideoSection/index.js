@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage, injectIntl } from 'react-intl'
+import { injectIntl } from 'react-intl'
 import videoRight from '../../assets/images/screens/video-right.png'
 import videoLeft from '../../assets/images/screens/video-left.png'
 

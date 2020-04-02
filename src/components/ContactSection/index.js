@@ -1,20 +1,31 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 const ContactSection = () => (
   <div className='container-fluid col-sm-12 ' id='contact-container'>
   <div className='row justify-content-md-center'>
-      <div className='col-2'></div>
-      <div className='col-4'>
-          <h3><span className='dont-span'>Contattaci</span></h3>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+          <h3><span className='dont-span'>
+            <FormattedMessage id='Contact.title' />
+          </span></h3>
           <br/>
           <p><a href='mailto:coronavirus.outbreak.control@gmail.com'>coronavirus.outbreak.control@gmail.com</a></p>
       </div>
-      <div className='col-4'>
-          <h3><span className='dont-span'>Scarica la descrizione del progetto</span></h3>
+      <div className='col-sm-4'>
+          <h3><span className='dont-span'>
+          <FormattedMessage id='Contact.title2' />
+          </span></h3>
           <br/>
-          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href='/download/Coronavirus_Outbreak_Control_-_Full Proposal.pdf'>Coronavirus Outbreak Control - Proposta</a></p>
+          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href='/download/Coronavirus_Outbreak_Control_-_Full Proposal.pdf'>
+            <FormattedMessage id='Contact.proposal' />
+          </a></p>
       </div>
-      <div className='col-2'></div>
+      <div class="col-sm-4">
+          <h3><span class="dont-span"><FormattedMessage id='Contact.title3' /></span></h3>
+          <br/>
+          <p style={{textDecoration: 'underline'}}><a href="CovidApp_files/Terms_and_Conditions.pdf">Terms & Conditions</a>, <a href="CovidApp_files/Privacy_Policy_en.pdf">Privacy Policy</a></p>
+      </div>
   </div>
 </div>
 )
