@@ -4,6 +4,7 @@ import how_it_works_2 from '../../assets/images/screens/how_it_works_2.png'
 import how_it_works_3 from '../../assets/images/screens/how_it_works_3.png'
 import how_it_works_3b from '../../assets/images/screens/how_it_works_3_b.png'
 import how_it_works_4 from '../../assets/images/screens/how_it_works_4.png'
+import {FormattedMessage} from "react-intl";
 
 const HowSection = () => (
   <div
@@ -13,7 +14,7 @@ const HowSection = () => (
     <div className='row'>
       <div className='col-2' />
       <div className='col-8'>
-        <h1>Come funziona</h1>
+        <h1><FormattedMessage id='How.title' /></h1>
       </div>
       <div className='col-2' />
     </div>
@@ -24,9 +25,7 @@ const HowSection = () => (
       </div>
       <div className='col-5 '>
         <p>
-          1. Ogni smartphone è associato ad un identificativo anonimo che può
-          essere letto a distanza usando la tecnologie di alta precisione per
-          brevi distanze.
+          <FormattedMessage id='How.text1' />
         </p>
       </div>
       <div className='col-3' />
@@ -36,8 +35,7 @@ const HowSection = () => (
 
       <div className='col-5 '>
         <p>
-          2. CovidApp raccoglie costantemente gli ID anonimi dei telefoni vicino
-          a te, memorizzandoli in un database cloud centralizzato sicuro.{' '}
+          <FormattedMessage id='How.text2' />{' '}
         </p>{' '}
       </div>
       <div className='col-2'>
@@ -52,9 +50,7 @@ const HowSection = () => (
       </div>
       <div className='col-4 '>
         <p>
-          3. La nostra rete di medici certificati aggiorna quotidianamente il
-          database con gli ID dei dispositivi appartenenti a pazienti che hanno
-          contratto il coronavirus.
+          <FormattedMessage id='How.text3' />
         </p>
       </div>
       <div className='col-2'>
@@ -69,9 +65,7 @@ const HowSection = () => (
       </div>
       <div className='col-5 '>
         <p>
-          4. Se sei stato in prossimità di una persona infetta in passato,
-          riceverai una notifica e chiare istruzioni sui passaggi successivi da
-          seguire.
+          <FormattedMessage id='How.text4' />
         </p>
       </div>
       <div className='col-3' />

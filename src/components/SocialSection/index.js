@@ -1,23 +1,24 @@
 import React from 'react'
+import {FormattedMessage} from "react-intl";
 
 const SocialSection = () => (
   <div className='container-fluid col-sm-12 pt-5 pb-5 blue-soft-bkg' id='social-container'>
   <div className='row'>
       <div className="col-1"></div>
       <div className="col-10">
-          <h1>Insieme possiamo salvare vite, condividilo ora:</h1>
+          <h1><FormattedMessage id='Social.title' /></h1>
           <div className="share-inside-container">
-              <h4>+30% Interazioni Individuate</h4>
-              <p>Rispetto a comuni soluzioni bluetooth</p>
+              <h4><FormattedMessage id='Social.subtitle1' /></h4>
+              <p><FormattedMessage id='Social.text1' /></p>
 
-              <h4>Open source + public protocol</h4>
-              <p>La trasparenza per noi è importante! Tutto quello che facciamo è open source e disponibile.</p>
+              <h4><FormattedMessage id='Social.subtitle2' /></h4>
+              <p><FormattedMessage id='Social.text2' /></p>
 
-              <h4>Dashboard per Virologi</h4>
-              <p>Diamo la possibilità direttamente a virologi esperti selezionati di stabilire le regole e le notifiche da mandare ai pazienti.</p>
+              <h4><FormattedMessage id='Social.subtitle3' /></h4>
+              <p><FormattedMessage id='Social.text3' /></p>
 
-              <h4>Pazienti Asintomatici</h4>
-              <p>La nostra piattaforma è in grado di individuare anche i pazienti che non presentano sintomi.</p>
+              <h4><FormattedMessage id='Social.subtitle4' /></h4>
+              <p><FormattedMessage id='Social.text4' /></p>
           </div>
           <div className='fb-share-button'
                data-href='https://coronavirus-outbreak-control.github.io/web/index.html'
