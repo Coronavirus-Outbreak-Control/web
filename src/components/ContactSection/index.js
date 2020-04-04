@@ -1,7 +1,7 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import { FormattedMessage, injectIntl } from 'react-intl'
 
-const ContactSection = () => (
+const ContactSection = (props) => (
   <div className='container-fluid col-sm-12 ' id='contact-container'>
   <div className='row justify-content-md-center'>
         <div class="col-sm-1"></div>
@@ -24,10 +24,10 @@ const ContactSection = () => (
       <div class="col-sm-4">
           <h3><span class="dont-span"><FormattedMessage id='Contact.title3' /></span></h3>
           <br/>
-          <p style={{textDecoration: 'underline'}}><a href="CovidApp_files/Terms_and_Conditions.pdf">Terms & Conditions</a>, <a href="CovidApp_files/Privacy_Policy_en.pdf">Privacy Policy</a></p>
+          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href="/download//Terms_and_Conditions.pdf">Terms & Conditions</a>, <a target='_blank' rel='noopener noreferrer' href={props.intl.locale === 'it' ?  '/download/Privacy_Policy_ita.pdf' : '/download/Privacy_Policy_en.pdf'}>Privacy Policy</a></p>
       </div>
   </div>
 </div>
 )
 
-export default ContactSection
+export default injectIntl(ContactSection)

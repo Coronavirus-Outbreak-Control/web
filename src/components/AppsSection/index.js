@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import downloadIphone from '../../assets/images/screens/download-iphone.png'
 import downloadAndroid from '../../assets/images/screens/download-android.png'
 import downloadAppBig from '../../assets/images/screens/download-app-big.png'
-import successIcon from '../../assets/images/screens/success-incon.png'
+// import successIcon from '../../assets/images/screens/success-incon.png'
 import {FormattedMessage} from "react-intl";
 
 class AppsSection extends Component {

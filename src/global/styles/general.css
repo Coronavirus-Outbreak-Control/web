@@ -181,3 +181,24 @@ a.nav-link:hover {
 #about-container h1, #help-container h1 {
   text-align: center;
 }
+
+#video-container .js-slider.row {
+  padding: 0;
+}
+
+.js-slider {
+  margin: 0 auto;
+}
+
+.slick-slide {
+  width: 100px;
+  height: 100px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-slide img {
+  width: 100px;
+  text-align: center;
+  height: 100px;
+}

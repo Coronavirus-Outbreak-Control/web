@@ -47,5 +47,15 @@
       fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
   <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
+  <script>
+    // fix for react-slick
+    window.matchMedia = window.matchMedia || function() {
+      return {
+        matches: false,
+        addListener: function() {},
+        removeListener: function() {}
+      }
+    }
+  </script>
   </body>
 </html>

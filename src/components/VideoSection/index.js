@@ -12,19 +12,21 @@ import pi_campus from '../../assets/images/screens/pi_campus.png';
 import sapienza from '../../assets/images/screens/sapienza.png';
 import translated from '../../assets/images/screens/translated.png';
 import ufsc from '../../assets/images/screens/ufsc.png';
+import be from '../../assets/images/screens/be.png';
+import tesla from '../../assets/images/screens/tesla.png';
 
 import Slider from "react-slick";
 
 const settings = {
-  speed: 800,
+  speed: 500,
   arrows: false,
   infinite: true,
   autoplay: true,
   slidesToShow: 4,
   centerMode: true,
   slidesToScroll: 1,
-  className: 'row pb-5',
-  centerPadding: '150px'
+  className: 'js-slider row pb-5',
+  // centerPadding: '150px'
 
 };
 const VideoSection = (props) => (
@@ -38,6 +40,8 @@ const VideoSection = (props) => (
         <div><img className='js-item' src={sapienza} width="100px" height="100px"/></div>
         <div><img className='js-item' src={translated} width="100px" height="100px"/></div>
         <div><img className='js-item' src={ufsc} width="100px" height="100px"/></div>
+        <div><img className='js-item' src={be} width="100px" height="100px"/></div>
+        <div><img className='js-item' src={tesla} width="100px" height="100px"/></div>
       </Slider>
     </div>
     <div className='row justify-content-center'>
