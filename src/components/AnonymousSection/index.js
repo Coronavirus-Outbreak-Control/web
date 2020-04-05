@@ -20,10 +20,10 @@ const AnonymousSection = () => (
             <div className='col-3'>
                 <h5><FormattedMessage id='Anonymous.subtitle' /></h5>
                 <br/>
-                <p><span className='dont-span'>NON</span><FormattedMessage id='Anonymous.text1' /></p>
-                <p><span className='dont-span'>NON</span><FormattedMessage id='Anonymous.text2' /></p>
-                <p><span className='dont-span'>NON</span><FormattedMessage id='Anonymous.text3' /></p>
-                <p><span className='dont-span'>NON</span><FormattedMessage id='Anonymous.text4' /></p>
+                <p><span className='dont-span'><FormattedMessage id='Anonymous.not' /></span><FormattedMessage id='Anonymous.text1' /></p>
+                <p><span className='dont-span'><FormattedMessage id='Anonymous.not' /></span><FormattedMessage id='Anonymous.text2' /></p>
+                <p><span className='dont-span'><FormattedMessage id='Anonymous.not' /></span><FormattedMessage id='Anonymous.text3' /></p>
+                <p><span className='dont-span'><FormattedMessage id='Anonymous.not' /></span><FormattedMessage id='Anonymous.text4' /></p>
             </div>
             <div className='col-7'>
                 <img src={anonymous} height='310' style={{marginLeft: '80px', marginTop: '-18px'}}/>
