@@ -1,4 +1,4 @@
 @import 'normalize.css';
 @import 'typography.css';
-@import 'general.css';
+@import 'general.scss';
 @import 'bootstrap.min.css';

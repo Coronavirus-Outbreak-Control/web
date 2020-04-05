@@ -57,7 +57,7 @@ class App extends React.Component {
         <React.StrictMode>
           <Helmet title='Covid Community Alert' />
           <main className="App">
-            <Header onChangeLanguage={this.changeLanguage}/>
+            <Header {...this.props} onChangeLanguage={this.changeLanguage}/>
             <TopSection/>
             <VideoSection/>
             <AppsSection/>

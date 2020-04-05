@@ -5,7 +5,7 @@ html {
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
-  min-width: 960px;
+  /*min-width: 960px;*/
   scroll-behavior: smooth;
 }
 
@@ -25,21 +25,52 @@ html, body {
   margin: 0 auto;
 }
 
-a.nav-link {
-  padding: 35px 20px;
-  color: white !important;
-  font-weight: 100;
-  cursor: pointer;
-}
-a.nav-link:hover {
-  color: white;
-  text-decoration: underline;
-}
-.navbar-brand img {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: 30px;
+header {
+  padding-right: 20px;
+  .navbar-brand {
+    padding-top: 0 !important;
+  }
+  span.navbar-brand {
+    width: 100px;
+    height: 100px;
+    img {
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      left: 30px;
+    }
+  }
+  a.nav-link {
+    color: white !important;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .dropdown-menu {
+    left: -28px;
+    max-width: 200px;
+    //padding: .25rem 1.0rem;
+    .dropdown-item.language {
+      display: flex;
+      justify-content: space-between;
+      color: #000 !important;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .dropdown-item.language span {
+      margin-right: 1rem;
+    }
+
+    .dropdown-item.language img {
+      margin-left: 1rem;
+    }
+  }
+  button.navbar-toggler {
+    background-color: #fff !important;
+  }
 }
 
 #top-container {
@@ -205,38 +236,5 @@ a.nav-link:hover {
   height: 100px;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
 
-.dropdown-menu.dropdown-menu-right.language {
-  margin-right: 5px;
-  padding: 8px 12px;
-  min-width: auto;
-  margin-top: -20px;
-}
 
-.dropdown-menu.dropdown-menu-right.language img {
-  margin-left: 5px;
-}
-
-.nav-item.nav-link.language {
-  padding: 4px 0;
-  display: flex;
-  justify-content: space-between;
-  color: #000 !important;
-  align-items: center;
-  cursor: pointer;
-}
-
-.nav-item.nav-link.language span {
-  margin-right: 5px;
-}
-
-a.nav-link.language {
-  padding-bottom: 10px;
-}
-
-.dropdown-toggle.language img {
-  margin-left: 5px;
-}
