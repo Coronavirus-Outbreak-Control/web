@@ -39,10 +39,10 @@ const WorkingWithSection = () => (
                 <FormattedMessage id='WorkingWith.supported' />
                 </p>
                 <ul>
-                    <li><p></p></li>
-                    <li><p>Marco Trombetti, founder at Pi-Campus</p></li>
+                    <li><p><FormattedMessage id='WorkingWith.list8' /></p></li>
                     <li><p><FormattedMessage id='WorkingWith.list4' /></p></li>
                     <li><p><FormattedMessage id='WorkingWith.list5' /></p></li>
+                    <li><p><FormattedMessage id='WorkingWith.list9' /></p></li>
                     <li><p><FormattedMessage id='WorkingWith.list6' /></p></li>
                     <li><p><FormattedMessage id='WorkingWith.list7' /></p></li>
                 </ul>

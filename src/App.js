@@ -15,7 +15,7 @@ import ContactSection from './components/ContactSection'
 import localeData from "./locale/data"
 import { IntlProvider } from "react-intl"
 
-let DEFAULT_LANGUAGE = 'it'
+let DEFAULT_LANGUAGE = 'en'
 
 if (!Intl.PluralRules) {
   require('@formatjs/intl-pluralrules/polyfill')
@@ -33,8 +33,8 @@ const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0]
 
 
 let i18nConfig = {
-  locale: languageWithoutRegionCode || DEFAULT_LANGUAGE,
-  messages : localeData[languageWithoutRegionCode] || localeData[language] || localeData[DEFAULT_LANGUAGE]
+  locale: DEFAULT_LANGUAGE,
+  messages : localeData[DEFAULT_LANGUAGE]
 }
 
 
