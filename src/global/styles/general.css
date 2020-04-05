@@ -204,3 +204,39 @@ a.nav-link:hover {
   text-align: center;
   height: 100px;
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu.dropdown-menu-right.language {
+  margin-right: 5px;
+  padding: 8px 12px;
+  min-width: auto;
+  margin-bottom: -20px;
+}
+
+.dropdown-menu.dropdown-menu-right.language img {
+  margin-left: 5px;
+}
+
+.nav-item.nav-link.language {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #000 !important;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-item.nav-link.language span {
+  margin-right: 5px;
+}
+
+a.nav-link.language {
+  padding-bottom: 10px;
+}
+
+.dropdown-toggle.language img {
+  margin-left: 5px;
+}
