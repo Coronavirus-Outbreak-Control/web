@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a8d68cb1e81447b9a4935d968b339c4",
+    "revision": "3f4bce6f48841461c02ef4b7cf4ac2c9",
     "url": "/web/index.html"
   },
   {
-    "revision": "4c57367ac366a151d455",
+    "revision": "5703cc8fc5e7cc429e80",
     "url": "/web/static/css/2.eaec97ae.chunk.css"
   },
   {
-    "revision": "57e5b8eaa8e9d8430d24",
-    "url": "/web/static/css/main.ad5b6e4a.chunk.css"
+    "revision": "03cd013a8f70a8fa658c",
+    "url": "/web/static/css/main.06df7e67.chunk.css"
   },
   {
-    "revision": "4c57367ac366a151d455",
-    "url": "/web/static/js/2.db0ba6b8.chunk.js"
+    "revision": "5703cc8fc5e7cc429e80",
+    "url": "/web/static/js/2.d05ded42.chunk.js"
   },
   {
     "revision": "d3eab2c800484648f446253871549a7a",
-    "url": "/web/static/js/2.db0ba6b8.chunk.js.LICENSE.txt"
+    "url": "/web/static/js/2.d05ded42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57e5b8eaa8e9d8430d24",
-    "url": "/web/static/js/main.4dc52c65.chunk.js"
+    "revision": "03cd013a8f70a8fa658c",
+    "url": "/web/static/js/main.ba7c1321.chunk.js"
   },
   {
     "revision": "90f8d79d141b424c4fa4",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51ad70edc7c424eb3181165342ad3daf",
     "url": "/web/static/media/anonymous.51ad70ed.png"
+  },
+  {
+    "revision": "4965071b315dda8298570fccc973005c",
+    "url": "/web/static/media/asintomatici.4965071b.png"
   },
   {
     "revision": "97a1e1084ce5737b65fd07c006e6b881",
@@ -72,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web/static/media/how_it_works_4.c43e8186.png"
   },
   {
+    "revision": "00e2c412efcee4ba56e93b6dd59ce8af",
+    "url": "/web/static/media/interazioni.00e2c412.png"
+  },
+  {
     "revision": "9e812b1fe8b3de0094b85160855ebfba",
     "url": "/web/static/media/mobile-top.9e812b1f.png"
+  },
+  {
+    "revision": "2daa6e0076c2225f9358e1512e5cdb7e",
+    "url": "/web/static/media/open_source.2daa6e00.png"
   },
   {
     "revision": "52b2428ecee1cb5b82724534944635cf",
@@ -114,5 +126,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3e0d25438e5daccaa1f954920b68ba30",
     "url": "/web/static/media/ufsc.3e0d2543.png"
+  },
+  {
+    "revision": "8313b2f9162ad94974f6188da297f6ab",
+    "url": "/web/static/media/virologi.8313b2f9.png"
   }
 ]);
