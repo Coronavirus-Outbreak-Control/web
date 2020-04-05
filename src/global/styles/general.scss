@@ -77,7 +77,11 @@ header {
   color: #fff;
   padding-top: 30px;
 }
-
+.mobile-image-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 //#top-container .row {
 //
 //}
@@ -254,6 +258,7 @@ header {
     .mobile-image-top img {
       background-size: cover;
       height: 250px;
+
     }
   }
 }
@@ -303,12 +308,6 @@ header {
 @media screen and (min-width: 1200px) {
   body {
     background: gray;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.5rem;
   }
   .container-fluid > .row {
     padding: 0 9rem;
