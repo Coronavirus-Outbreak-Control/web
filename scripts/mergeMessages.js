@@ -2,7 +2,7 @@ const fs = require('fs')
 const globSync = require('glob').sync
 
 const DEFAULT_LANGUAGE = 'en'
-const MESSAGES_PATTERN = './build/messages/**/*.json'
+const MESSAGES_PATTERN = './build/messages/**/**/*.json'
 const WRITE_PATH = './src/locale/data.json'
 const TRANSLATIONS_PATTERN = './public/locale/*.json'
 
