@@ -1,5 +1,6 @@
 {
   "name": "covid-outbreak",
+  "homepage": "https://coronavirus-outbreak-control.github.io/web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
