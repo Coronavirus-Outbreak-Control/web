@@ -25,7 +25,7 @@ const settings = {
   slidesToShow: 4,
   centerMode: true,
   slidesToScroll: 1,
-  className: 'js-slider row pb-5',
+  className: 'js-slider pb-5',
   // centerPadding: '150px'
 
 };
