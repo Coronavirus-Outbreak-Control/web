@@ -213,7 +213,7 @@ a.nav-link:hover {
   margin-right: 5px;
   padding: 8px 12px;
   min-width: auto;
-  margin-bottom: -20px;
+  margin-top: -20px;
 }
 
 .dropdown-menu.dropdown-menu-right.language img {
