@@ -17,14 +17,14 @@ const ContactSection = (props) => (
           <FormattedMessage id='Contact.title2' />
           </span></h3>
           <br/>
-          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href='/download/Coronavirus_Outbreak_Control_-_Full Proposal.pdf'>
+          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href='web/download/Coronavirus_Outbreak_Control_-_Full Proposal.pdf'>
             <FormattedMessage id='Contact.proposal' />
           </a></p>
       </div>
       <div class="col-sm-4">
           <h3><span class="dont-span"><FormattedMessage id='Contact.title3' /></span></h3>
           <br/>
-          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href="/download//Terms_and_Conditions.pdf">Terms & Conditions</a>, <a target='_blank' rel='noopener noreferrer' href={props.intl.locale === 'it' ?  '/download/Privacy_Policy_ita.pdf' : '/download/Privacy_Policy_en.pdf'}>Privacy Policy</a></p>
+          <p style={{textDecoration: 'underline'}}><a target='_blank' rel='noopener noreferrer' href="web/download/Terms_and_Conditions.pdf">Terms & Conditions</a>, <a target='_blank' rel='noopener noreferrer' href={props.intl.locale === 'it' ?  'web/download/Privacy_Policy_ita.pdf' : 'web/download/Privacy_Policy_en.pdf'}>Privacy Policy</a></p>
       </div>
   </div>
 </div>
