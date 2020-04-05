@@ -78,17 +78,14 @@ header {
   padding-top: 30px;
 }
 
-#top-container .row {
-  padding: 0px 150px;
-}
+//#top-container .row {
+//
+//}
 
 #top-container p {
   font-style: normal;
   font-weight: 100;
-  font-size: 19px;
   line-height: 160%;
-  /* or 35px */
-
   text-align: justify;
 }
 
@@ -234,6 +231,97 @@ header {
   width: 100px;
   text-align: center;
   height: 100px;
+}
+
+
+@media screen and (min-width: 480px) {
+  body {
+    background: yellow;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .container-fluid > .row {
+    padding: 0 4rem;
+  }
+  #top-container {
+    .mobile-image-top img {
+      background-size: cover;
+      height: 250px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: green;
+  }
+  h1 {
+     font-size: 1.7rem;
+   }
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .container-fluid > .row {
+    padding: 0 4rem;
+  }
+  #top-container {
+    .mobile-image-top img {
+      background-size: cover;
+      height: 300px;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background: blue;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .container-fluid > .row {
+    padding: 0 4rem;
+  }
+  #top-container {
+    .mobile-image-top img {
+      background-size: cover;
+      height: 350px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background: gray;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .container-fluid > .row {
+    padding: 0 9rem;
+  }
+  #top-container {
+    .mobile-image-top img {
+      background-size: cover;
+      height: 350px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 
