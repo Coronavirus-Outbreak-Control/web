@@ -21,7 +21,7 @@ class AppsSection extends Component {
 
   render () {
     return (
-      <div className='container-fluid col-sm-12 pt-5 pb-5' id='apps-container'>
+      <div className='container-fluid col-sm-12 pt-5 pb-5 white-bkg' id='apps-container'>
             <div className='row justify-content-center'>
                 <div className='col-5 align-self-center'>
                     <div className='download-app-container'>

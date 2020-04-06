@@ -1,11 +1,12 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const HelpSection = () => (
   <div className='container-fluid col-sm-12 blue-soft-bkg' id='help-container'>
-  <div className='row justify-content-md-center'>
-      <div className='col-2'></div>
-      <div className='col-8'>
+  <Row className='justify-content-md-center'>
+      <Col>
           <h1><span className='dont-span'>
             <FormattedMessage id='Help.title' />
           </span></h1>
@@ -29,9 +30,8 @@ const HelpSection = () => (
           <p style={{fontSize: '18px'}}>
           <FormattedMessage id='Help.p5' />
           </p>
-      </div>
-      <div className='col-2'></div>
-  </div>
+      </Col>
+  </Row>
 </div>
 )
 

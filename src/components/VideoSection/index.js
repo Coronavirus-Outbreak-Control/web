@@ -25,7 +25,7 @@ const settings = {
   slidesToShow: 4,
   centerMode: true,
   slidesToScroll: 1,
-  className: 'js-slider pb-5',
+  className: 'js-slider pb-5 pt-5',
   // centerPadding: '150px'
 
 };
@@ -45,7 +45,7 @@ const VideoSection = (props) => (
       </Slider>
     </div>
     <div className='row justify-content-center'>
-        <div className='col-2  side-image'>
+        <div className='col-2 side-image'>
             <img src={videoLeft}/>
         </div>
         <div className='col-8' style={{zIndex:3}}>

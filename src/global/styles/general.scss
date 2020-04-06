@@ -12,6 +12,7 @@ html {
 html, body {
   padding: 0;
   margin: 0;
+  background: #2E5DA4;
 }
 
 .blue-bkg {
@@ -19,6 +20,9 @@ html, body {
 }
 .blue-soft-bkg {
   background: #EAEFF6;
+}
+.white-bkg {
+  background: #fff;
 }
 
 //.container-fluid > .row {
@@ -93,11 +97,16 @@ header {
   }
 }
 
-
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 
 #video-container {
-  padding: 10px 0;
   padding-bottom: 50px;
+  .row {
+    margin-right: 0;
+  }
   .iframe-container {
     height: 0;
     overflow: hidden;
@@ -116,10 +125,6 @@ header {
   }
   .js-slider {
     margin: 0 auto;
-
-    .row {
-      padding: 0;
-    }
   }
   .side-image img{
     width: 100%;
@@ -217,7 +222,7 @@ header {
     text-align: center;
   }
   img {
-    width: 100%;
+    width: 90%;
     max-width: 180px;
   }
   h1 {
@@ -269,6 +274,11 @@ header {
 #how-container {
   padding: 30px 0;
   text-align: center;
+  .image-container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
 }
 
 #how-container p {
@@ -296,9 +306,6 @@ header {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body {
-    background: orange;
-  }
   h1 {
     font-size: 1.7rem;
   }
@@ -340,6 +347,10 @@ header {
       text-align: center;
       height: 50px;
     }
+    .js-slider {
+      padding-bottom: 15px !important;
+      padding-top: 15px !important;
+    }
   }
   #anonymous-container {
     .image-container img {
@@ -351,9 +362,6 @@ header {
   }
 }
 @media only screen and (min-width : 480px) {
-  body {
-    background: yellow;
-  }
   h1 {
     font-size: 1.7rem;
   }
@@ -394,9 +402,6 @@ header {
   }
 }
 @media screen and (min-width: 768px) {
-  body {
-    background: green;
-  }
   h1 {
      font-size: 1.7rem;
    }
@@ -432,9 +437,6 @@ header {
 
 }
 @media screen and (min-width: 1024px) {
-  body {
-    background: blue;
-  }
   h1 {
     font-size: 2rem;
   }
@@ -442,7 +444,7 @@ header {
     font-size: 1.5rem;
   }
   .container-fluid > .row {
-    padding: 0 4rem;
+    padding: 0 6rem;
   }
   #top-container {
     .mobile-image-top img {
@@ -466,11 +468,8 @@ header {
   }
 }
 @media screen and (min-width: 1200px) {
-  body {
-    background: gray;
-  }
   .container-fluid > .row {
-    padding: 0 9rem;
+    padding: 0 10rem;
   }
   #top-container {
     .mobile-image-top img {
@@ -489,6 +488,7 @@ header {
   }
 
 }
+
 
 
 

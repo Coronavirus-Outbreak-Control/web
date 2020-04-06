@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 
 const AnonymousSection = () => (
-  <div className='container-fluid col-sm-12 pt-5 pb-5 ' id='anonymous-container'>
+  <div className='container-fluid col-sm-12 pt-5 pb-5 white-bkg' id='anonymous-container'>
         <Row className='justify-content-md-center'>
             <Col >
                 <h1><FormattedMessage id='Anonymous.title' /></h1>
