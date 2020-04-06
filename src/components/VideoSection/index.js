@@ -33,20 +33,20 @@ const VideoSection = (props) => (
   <div className='container-fluid col-sm-12 blue-soft-bkg' id='video-container'>
     <div >
       <Slider {...settings} >
-        <div><img className='js-item' src={bocconi} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={cnr} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={copernicani} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={pi_campus} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={sapienza} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={translated} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={ufsc} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={be} width="100px" height="100px"/></div>
-        <div><img className='js-item' src={tesla} width="100px" height="100px"/></div>
+        <div><img className='js-item' src={bocconi}/></div>
+        <div><img className='js-item' src={cnr}/></div>
+        <div><img className='js-item' src={copernicani}/></div>
+        <div><img className='js-item' src={pi_campus}/></div>
+        <div><img className='js-item' src={sapienza} /></div>
+        <div><img className='js-item' src={translated}/></div>
+        <div><img className='js-item' src={ufsc}/></div>
+        <div><img className='js-item' src={be}/></div>
+        <div><img className='js-item' src={tesla}/></div>
       </Slider>
     </div>
     <div className='row justify-content-center'>
-        <div className='col-2'>
-            <img src={videoLeft} height='375' width='164'/>
+        <div className='col-2  side-image'>
+            <img src={videoLeft}/>
         </div>
         <div className='col-8' style={{zIndex:3}}>
             <div className='iframe-container'>
@@ -63,8 +63,8 @@ const VideoSection = (props) => (
             </div>
 
         </div>
-        <div className='col-2'>
-            <img src={videoRight} height='375' width='164'/>
+        <div className='col-2 side-image'>
+            <img src={videoRight}/>
         </div>
     </div>
   </div>

@@ -76,89 +76,132 @@ header {
 #top-container {
   color: #fff;
   padding-top: 30px;
+  p {
+    font-style: normal;
+    font-weight: 100;
+    line-height: 160%;
+    text-align: justify;
+  }
+  .mobile-image-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      background-size: cover;
+      height: 400px;
+    }
+  }
 }
-.mobile-image-top {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-//#top-container .row {
-//
-//}
 
-#top-container p {
-  font-style: normal;
-  font-weight: 100;
-  line-height: 160%;
-  text-align: justify;
-}
 
-.mobile-image-top img {
-  background-size: cover;
-  height: 400px;
-}
-/*.mobile-top {*/
-  /*background-image: url("../screens/mobile-top.png");*/
-  /*height: 536px;*/
-  /*background-size: cover;*/
-/*}*/
+
 #video-container {
   padding: 10px 0;
   padding-bottom: 50px;
+  .iframe-container {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    iframe,
+    object,
+    embed {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+  .js-slider {
+    margin: 0 auto;
+
+    .row {
+      padding: 0;
+    }
+  }
+  .side-image img{
+    width: 100%;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+  }
+  .slick-slide {
+    width: 50px;
+    height: 50px;
+    display: flex !important;
+    justify-content: center;
+  }
+  .slick-slide img {
+    width: 50px;
+    text-align: center;
+    height: 50px;
+  }
 }
-#video-container .iframe-container {
-  margin: 0 auto;
+
+
+
+
+#apps-container {
   text-align: center;
+  .download-app-container {
+    img {
+      width: 100%;
+      max-width: 148px;
+    }
+    .androidDownload {
+      margin-top: 1rem;
+    }
+  }
+  p {
+    font-size: 22px;
+  }
+  .email-from-container {
+    text-align: center;
+    margin-top: 50px;
+    form {
+      margin-top: 24px;
+    }
+    .success-icon {
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      padding-left: 5px;
+    }
+    input {
+      width: 60%;
+      height: calc(1.5em + .75rem + 2px);
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 3.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+    }
+  }
+  .beta-tester-container {
+    margin-top: 20px;
+  }
+  .app-icons-container {
+    margin-top: 35px;
+  }
+  .image-mobile-download {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    img {
+      width: 90%;
+      //min-width: 220px;
+    }
+  }
 }
 
-#video-container .row {
-  padding: 0 50px;
-}
 
-.download-app-container {
-  text-align: center;
-}
 
-.download-app-container p {
-  font-size: 22px;
-}
-.email-from-container {
-  text-align: center;
-  margin-top: 50px;
-}
 
-.email-from-container form {
-  margin-top: 24px;
-}
-.email-from-container .success-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  padding-left: 5px;
-}
-
-.email-from-container input {
-  width: 60%;
-  height: calc(1.5em + .75rem + 2px);
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 3.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: .25rem;
-}
-.beta-tester-container {
-  margin-top: 20px;
-}
-.image-mobile-download img{
-  width: 90%;
-}
-.app-icons-container {
-  margin-top: 35px;
-}
 /*.app-icons-container img {*/
 /*    margin: 0 60px;*/
 /*}*/
@@ -216,29 +259,11 @@ header {
   text-align: center;
 }
 
-#video-container .js-slider.row {
-  padding: 0;
-}
-
-.js-slider {
-  margin: 0 auto;
-}
-
-.slick-slide {
-  width: 100px;
-  height: 100px;
-  display: flex !important;
-  justify-content: center;
-}
-
-.slick-slide img {
-  width: 100px;
-  text-align: center;
-  height: 100px;
-}
 
 
-@media screen and (min-width: 480px) {
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
     background: yellow;
   }
@@ -252,13 +277,65 @@ header {
     font-size: 1rem;
   }
   .container-fluid > .row {
-    padding: 0 4rem;
+    padding: 0 1rem;
   }
   #top-container {
     .mobile-image-top img {
       background-size: cover;
       height: 250px;
 
+    }
+  }
+
+  #video-container {
+    .slick-slide {
+      width: 50px;
+      height: 50px;
+      display: flex !important;
+      justify-content: center;
+    }
+    .slick-slide img {
+      width: 50px;
+      text-align: center;
+      height: 50px;
+    }
+  }
+}
+@media only screen and (min-width : 480px) {
+  body {
+    background: yellow;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .container-fluid > .row {
+    padding: 0 1rem;
+  }
+  #top-container {
+    .mobile-image-top img {
+      background-size: cover;
+      height: 250px;
+
+    }
+  }
+
+  #video-container {
+    .slick-slide {
+      width: 50px;
+      height: 50px;
+      display: flex !important;
+      justify-content: center;
+    }
+    .slick-slide img {
+      width: 50px;
+      text-align: center;
+      height: 50px;
     }
   }
 }
@@ -284,6 +361,21 @@ header {
       height: 300px;
     }
   }
+
+  #video-container {
+    .slick-slide {
+      width: 80px;
+      height: 80px;
+      display: flex !important;
+      justify-content: center;
+    }
+    .slick-slide img {
+      width: 80px;
+      text-align: center;
+      height: 80px;
+    }
+  }
+
 }
 @media screen and (min-width: 1024px) {
   body {
@@ -304,6 +396,20 @@ header {
       height: 350px;
     }
   }
+
+  #video-container {
+    .slick-slide {
+      width: 100px;
+      height: 100px;
+      display: flex !important;
+      justify-content: center;
+    }
+    .slick-slide img {
+      width: 100px;
+      text-align: center;
+      height: 100px;
+    }
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -321,6 +427,13 @@ header {
       font-size: 1.2rem;
     }
   }
+}
+
+@media screen and (min-width: 1400px) {
+  .container-fluid > .row {
+    padding: 0 20%;
+  }
+
 }
 
 

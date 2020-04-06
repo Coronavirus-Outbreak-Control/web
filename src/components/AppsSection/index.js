@@ -25,18 +25,11 @@ class AppsSection extends Component {
             <div className='row justify-content-center'>
                 <div className='col-5 align-self-center'>
                     <div className='download-app-container'>
-                        <h2><FormattedMessage id='App.title' /></h2>
+                        <h1><FormattedMessage id='App.title' /></h1>
                         <p>(<FormattedMessage id='App.subtitle' />)</p>
-                        <div className='app-icons-container'>
-                            <div className='row col-sm-12'>
-                                <div className='col-12'>
-                                    <img src={downloadIphone} height='43' width='148'/>
-                                </div>
-                                <div className='col-12 mt-2'>
-                                    <img src={downloadAndroid} height='44' width='148'/>
-                                </div>
-                            </div>
-                        </div>
+                        <img src={downloadIphone}/>
+                        <br/>
+                        <img src={downloadAndroid} className="androidDownload"/>
                     </div>
                     {/* <div className='email-from-container'>
                         <h5><FormattedMessage id='App.email' /></h5>
