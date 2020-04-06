@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const WorkingWithSection = () => (
-  <div className='container-fluid col-sm-12 white-bkg' id='working-with-container'>
+  <div className='container-fluid white-bkg' id='working-with-container'>
         <Row >
             <Col>
                 <h1 style={{textAlign: 'center'}}>
