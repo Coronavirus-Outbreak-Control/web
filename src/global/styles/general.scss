@@ -242,6 +242,30 @@ header {
 }
 
 
+#anonymous-container {
+  .image-container.col {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+  }
+  .image-container img {
+    max-height: 300px;
+  }
+}
+
+
+#working-with-container {
+  padding: 100px 0;
+  text-align: center;
+
+}
+
 #how-container {
   padding: 30px 0;
   text-align: center;
@@ -256,17 +280,7 @@ header {
   background-color: #ABBEDB;
 }
 
-#anonymous-container p {
-  font-size: 16px;
-}
-#anonymous-container h1 {
-  text-align: center;
-}
-#working-with-container {
-  padding: 100px 0;
-  text-align: center;
 
-}
 #working-with-container p{
   text-align: left;
 }
@@ -327,6 +341,14 @@ header {
       height: 50px;
     }
   }
+  #anonymous-container {
+    .image-container img {
+      max-height: 165px;
+    }
+    .image-container.col {
+      flex-flow: row;
+    }
+  }
 }
 @media only screen and (min-width : 480px) {
   body {
@@ -363,6 +385,11 @@ header {
       width: 50px;
       text-align: center;
       height: 50px;
+    }
+  }
+  #anonymous-container {
+    .image-container img {
+      max-height: 250px;
     }
   }
 }
