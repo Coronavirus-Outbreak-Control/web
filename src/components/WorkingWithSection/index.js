@@ -1,24 +1,23 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const WorkingWithSection = () => (
-  <div className='container-fluid col-sm-12' id='working-with-container'>
-        <div className='row'>
-            <div className='col-3'></div>
-            <div className='col-6'>
+  <div className='container-fluid white-bkg' id='working-with-container'>
+        <Row >
+            <Col>
                 <h1 style={{textAlign: 'center'}}>
                 <FormattedMessage id='WorkingWith.title' />
                 </h1>
                 <br/>
-                <p style={{fontSize: '18px'}}>
+                <p style={{fontSize: '18px', textAlign:"center"}}>
                   <FormattedMessage id='WorkingWith.description' />
                 </p>
-            </div>
-            <div className='col-3'></div>
-        </div>
-        <div className='row'>
-            <div className='col-3'></div>
-            <div className='col-6'>
+            </Col>
+        </Row>
+        <Row className="justify-content-md-center pt-4">
+            <Col sm={8}>
                 <p style={{fontSize: '18px'}}>
                   <FormattedMessage id='WorkingWith.collaborateWith' />
                 </p>
@@ -48,9 +47,8 @@ const WorkingWithSection = () => (
                 </ul>
                 <br/>
                 <p style={{fontSize: '18px'}}><FormattedMessage id='WorkingWith.footer' /></p>
-            </div>
-            <div className='col-3'></div>
-        </div>
+            </Col>
+        </Row>
     </div>
 )
 
