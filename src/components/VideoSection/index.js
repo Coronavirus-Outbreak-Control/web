@@ -67,6 +67,24 @@ const VideoSection = (props) => (
             <img src={videoRight} height='375' width='164'/>
         </div>
     </div>
+    <div className='row justify-content-center'>
+        <div className='col-2'>
+        </div>
+        <div className='col-8' style={{zIndex:3, marginTop: '12px'}}>
+        <div className='iframe-container'>
+          <iframe width="320" height="187" src="https://www.youtube.com/embed/kQJmwd2zS7g"
+            frameBorder="0"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen/>
+          <iframe width="320" height="187" src="https://www.youtube.com/embed/KKhpp69jo6c"
+            frameBorder="0"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen/>
+            </div>
+        </div>
+        <div className='col-2'>
+        </div>
+    </div>
   </div>
 )
 
