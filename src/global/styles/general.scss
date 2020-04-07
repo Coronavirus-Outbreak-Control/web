@@ -213,7 +213,7 @@ header {
 #social-container {
   .social-image-container {
     width: 100%;
-    height: 180px;
+    height: 130px;
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -223,7 +223,7 @@ header {
   }
   img {
     width: 90%;
-    max-width: 180px;
+    max-width: 130px;
   }
   h1 {
     text-align: center;
@@ -438,10 +438,10 @@ header {
 }
 @media screen and (min-width: 1024px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container-fluid > .row {
     padding: 0 6rem;

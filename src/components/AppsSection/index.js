@@ -25,7 +25,7 @@ class AppsSection extends Component {
             <div className='row justify-content-center'>
                 <div className='col-5 align-self-center'>
                     <div className='download-app-container'>
-                        <h1><FormattedMessage id='App.title' /></h1>
+                        <h2><FormattedMessage id='App.title' /></h2>
                         <p>(<FormattedMessage id='App.subtitle' />)</p>
                         <img src={downloadIphone}/>
                         <br/>
