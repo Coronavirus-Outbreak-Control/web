@@ -586,7 +586,7 @@ body.has-transparent-header.elementor-editor-active .tg-site-header {
 
 @font-face {
 	font-family: "themegrill-icons";
-	src: url("assets/fonts/themegrill-icons.eot?5d42b271f668d2d6461ba91fc5a5a839?#iefix") format("embedded-opentype"), url("assets/fonts/themegrill-icons.woff2?5d42b271f668d2d6461ba91fc5a5a839") format("woff2"), url("assets/fonts/themegrill-icons.woff?5d42b271f668d2d6461ba91fc5a5a839") format("woff");
+	src: url("assets/fonts/themegrill-icons.eot?5d42b271f668d2d6461ba91fc5a5a839?#iefix") format("embedded-opentype"), url("assets/fonts/themegrill-icons.woff2?5d42b271f668d2d6461ba91fc5a5a839") format("woff2"), url("fonts/themegrill-icons.woff?5d42b271f668d2d6461ba91fc5a5a839") format("woff");
 }
 
 .tg-icon {
